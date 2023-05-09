@@ -19,12 +19,18 @@ const SurveyPages = () => {
     window.location.href === "http://localhost:3000/surveyPage/dashboard" ||
     window.location.href ===
       "https://survey-review-application.vercel.app/surveyPage/dashboard" ||
+    window.location.href ===
+      " https://survey-application-frontend.vercel.app/survey/dashboard" ||
     window.location.href === "http://localhost:3000/surveyPage/Team" ||
     window.location.href ===
       "https://survey-review-application.vercel.app/surveyPage/Team" ||
+    window.location.href ===
+      " https://survey-application-frontend.vercel.app/survey/Team" ||
     window.location.href === "http://localhost:3000/surveyPage/setting" ||
     window.location.href ===
-      "https://survey-review-application.vercel.app/surveyPage/setting"
+      "https://survey-review-application.vercel.app/surveyPage/setting" ||
+    window.location.href ===
+      " https://survey-application-frontend.vercel.app/survey/setting"
   ) {
     localStorage.setItem("workerid", false);
   }
@@ -50,7 +56,6 @@ const SurveyPages = () => {
             <b>Dashboard</b>
           </NavLink>
         </li>
-
         {workerid === false ? (
           <li className="link-survey">
             <NavLink to={Survey} className="link-survey-a">
