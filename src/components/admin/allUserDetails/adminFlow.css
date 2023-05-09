@@ -1,0 +1,112 @@
+.adminFlow-user {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 11px;
+    align-items: center;
+   
+}
+
+.content {
+    width: 100%;
+    padding: 75px 0 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.adminFlow-title {
+    color: #B3B3B3;
+    font-size: 20px;
+}
+
+.adminFlow-button {
+    width: 135px;
+    height: 48px;
+    border-style: none;
+    background: #9D9D9D;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Inter';
+}
+
+.user-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.user{
+    width: 18%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0px 10px 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.user-profile{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    overflow:hidden ;
+}
+
+.user-profile .user-img img,
+.user-profile .user-img-null img{
+    width: 100%;
+    height:100%;
+} 
+.user-img-null img{
+    opacity: 0.5;
+}
+.user-details{
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #4D4D4D;
+    background: rgb(201 201 201);
+    margin-bottom: 0;
+}
+
+.user-report {
+    padding: 0 10px;
+}
+
+.reporting_to {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 12px;
+    color: #C1C1C1;
+}
+
+.reporting_person_name {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #000000;
+}
+
+.user-report{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 43px;
+}
+
+.delete-icon {
+    opacity: 0.5;
+    font-size: 16px;
+    color: red;
+    margin-right: 5px;
+}
+
+.edit-icon {
+    opacity: 0.5;
+    font-size: 16px;
+}

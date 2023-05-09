@@ -1,0 +1,13 @@
+.user-footer-main {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #d9d9d9;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+    z-index: 1;
+}

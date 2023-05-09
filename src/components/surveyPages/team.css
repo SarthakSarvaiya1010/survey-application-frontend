@@ -1,0 +1,121 @@
+.teamFlow {
+    min-height: 450px;
+    margin-top: 90px;
+}
+
+.adminFlow-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.adminFlow-button {
+    width: 135px;
+    height: 48px;
+    border-style: none;
+    background: #9D9D9D;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Inter';
+}
+
+.supervisor-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.supervisor {
+    width: 18%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0px 15px 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* .supervisor-img {
+    height: 53px;
+    width: 58px;
+    position: absolute;
+    padding-left: 73px;
+    margin-top: 31px;
+    box-sizing: content-box;
+} */
+.supervisor-profile{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    overflow:hidden ;
+}
+
+.supervisor-profile .supervisor-img img,
+.supervisor-profile .supervisor-img-null img{
+    width: 100%;
+    height:100%;
+}
+.supervisor-img-null img{
+    opacity: 0.5;
+}
+.supervisor-details {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #4D4D4D;
+    background: rgb(201 201 201);
+    margin-bottom: 0;
+}
+
+.supervisor-report {
+    padding: 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.supervisor_reporting_to {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 12px;
+    color: #C1C1C1;
+}
+
+.supervisor_reporting_person_name {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #000000;
+}
+
+
+.edit-icon {
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.team_user_main_container {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    max-height: 500px;
+        max-width: 500px;
+        overflow: hidden;
+        overflow-y: scroll;
+        top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 15px;
+  }

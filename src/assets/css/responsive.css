@@ -1,0 +1,180 @@
+@media screen and (min-width: 300px) and (max-width:650px) {
+
+        /* survey-header */
+        .title {
+                color: white;
+                padding-left: 10%;
+                font-weight: 700;
+                font-size: 27px;
+                margin: 0;
+        }
+
+        .img {
+                height: 48px;
+                width: 47px;
+                border-radius: 50%;
+        }
+
+        .user-name {
+                color: white;
+                font-size: 17px;
+                margin-right: -21px;
+        }
+
+        .log-out {
+                margin-left: 3%;
+                color: white;
+                cursor: pointer;
+        }
+
+        /* survey */
+        .radio {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #ddd;
+                border-left: none;
+                padding: 10px 3px;
+        }
+
+        .select-option {
+                margin-right: 23px;
+                padding: 0.5%;
+                font-size: 16px;
+                width: 209px;
+        }
+
+        .radio-main {
+                background-color: #fff;
+                border-radius: 0 0 16px 16px;
+                box-shadow: 4px 4px 4px rgb(225 225 225 / 89%);
+                padding: 30px 8px 21px;
+                margin-top: -10px;
+        }
+
+        .radio-text {
+                font-size: 10px;
+        }
+
+
+        /* admin */
+        .user {
+                margin: 2%;
+                width: 126px;
+                height: 115px;
+                background: #D9D9D9;
+                border-radius: 15px 15px 0px 0px;
+                margin-top: 7%;
+                padding-bottom: 20px;
+        }
+
+        .user-img {
+                height: 33px;
+                width: 42px;
+                position: absolute;
+                padding-left: 41px;
+                margin-top: 28px;
+        }
+
+        .user-report {
+                background: #FFFFFF;
+                box-shadow: 0px 4px 4px rgb(0 0 0 / 5%);
+                border-radius: 0px 0px 15px 15px;
+                height: 51px;
+                width: 127px;
+                margin-bottom: 2%;
+                padding-top: 10px;
+                display: flex;
+                justify-content: space-between;
+        }
+
+        .user-details {
+                display: flex;
+                justify-content: center;
+                margin-top: 50%;
+                background: rgba(255, 255, 255, 0.3);
+                padding: 5px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                color: #4D4D4D;
+        }
+
+        .reporting_person_name {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 15px;
+                color: #000000;
+                padding-left: 6px;
+        }
+
+        .edit-icon {
+                /* margin-left: -29px; */
+                opacity: 0.5;
+                font-size: 20px;
+        }
+
+        .delete-icon {
+                margin-right: 36px;
+                font-size: 21px;
+        }
+
+        /* form */
+
+        .main_container {
+                background: #FFFFFF;
+                box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+                border-radius: 10px;
+                margin-bottom: 7%;
+                padding: 1%;
+                width: 74%;
+                margin-left: 14%;
+                position: absolute;
+                z-index: 1;
+        }
+
+        .form-input-field-name {
+                padding: 4px;
+                border: 0;
+                border: 1px solid #D9D9D9;
+                border-radius: 5px;
+                margin-right: 106px;
+                width: 82%;
+                font-size: 16px;
+        }
+
+        .form-input-field {
+                padding: 6px;
+                border: 0;
+                border: 1px solid #D9D9D9;
+                border-radius: 5px;
+                margin-right: 18px;
+                width: 62%;
+        }
+
+        .form-img-input {
+                width: 217px;
+                height: 102px;
+                background: rgba(217, 217, 217, 0.3);
+                border: 3px dashed #4D4D4D;
+                border-radius: 5px;
+        }
+}
+
+
+@media screen and (min-width: 650px) and (max-width:1000px) {
+        .main_container {
+                background: #FFFFFF;
+                box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+                border-radius: 10px;
+                margin-bottom: 7%;
+                padding: 1%;
+                width: 65%;
+                margin-left: 8%;
+                position: absolute;
+                z-index: 1;
+        }
+}

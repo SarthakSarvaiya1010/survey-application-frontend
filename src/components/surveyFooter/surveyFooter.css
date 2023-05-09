@@ -1,0 +1,33 @@
+.footer-main {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #d9d9d9;
+    color: white;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    padding: 18px 0;
+}
+
+.footer-container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* .modal-backdrop.show {
+    opacity: .2;
+} */

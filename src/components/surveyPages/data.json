@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Heenap",
+    "email": "Heena@example.com",
+    "survey_points": "8.8000000000000000",
+    "image_src": "public\\images\\1669123487145.jpg",
+    "status": 0,
+    "points": "N/A"
+  },
+  {
+    "name": "Khushi",
+    "email": "khushi@example.com",
+    "survey_points": "8.6000000000000000",
+    "image_src": null,
+    "status": 0,
+    "points": "N/A"
+  },
+  {
+    "name": "nehal",
+    "email": "nehal@example.com",
+    "survey_points": "9.0000000000000000",
+    "image_src": "public\\images\\1667382290831.jpg",
+    "status": 1,
+    "points": "6.8000000000000000"
+  },
+  {
+    "name": "Sara",
+    "email": "sara@example1.com",
+    "survey_points": "N/A",
+    "image_src": null,
+    "status": 0,
+    "points": "N/A"
+  },
+  {
+    "name": "shivangi",
+    "email": "shivangi12@example.com",
+    "survey_points": "9.2000000000000000",
+    "image_src": "public\\images\\1669118693966.jpg",
+    "status": 0,
+    "points": "N/A"
+  },
+  {
+    "name": "Shivani",
+    "email": "Shivani@example.com",
+    "survey_points": "8.8000000000000000",
+    "image_src": null,
+    "status": 0,
+    "points": "N/A"
+  },
+  {
+    "name": "Soha",
+    "email": "soha@example.com",
+    "survey_points": "N/A",
+    "image_src": null,
+    "status": 0,
+    "points": "N/A"
+  },
+  {
+    "name": "vidhut",
+    "email": "vidhut@example.com",
+    "survey_points": "8.2000000000000000",
+    "image_src": "public\\images\\1669123124770.jpg",
+    "status": 0,
+    "points": "N/A"
+  },
+  {
+    "name": "vinay",
+    "email": "vinay@example.com",
+    "survey_points": "9.0000000000000000",
+    "image_src": "public\\images\\1669122812568.jpg",
+    "status": 0,
+    "points": "N/A"
+  }
+]

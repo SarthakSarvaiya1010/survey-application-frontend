@@ -1,0 +1,32 @@
+.header-main {
+    background-color: #6d72f2;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-header{
+    height: 40px;
+    width: 40px;
+}
+
+.login-title {
+    width: 124px;
+    height: 44px;
+    margin-left: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}

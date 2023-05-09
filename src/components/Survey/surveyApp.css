@@ -1,0 +1,40 @@
+.wrepper {
+    background: #F2F2F2;
+    padding-bottom: 100px;
+}
+
+
+
+.date-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    background: #F2F2F2;
+}
+
+.date h2 {
+    font-size: 36px;
+    color: #1A1A1A;
+    font-weight: 700;
+    margin: 40px 0 30px;
+    font-family: 'Inter';
+}
+
+.select-option {
+    padding: 0.5%;
+    font-size: 30px;
+    width: 282px;
+    box-sizing: border-box;
+    height: 48px;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+.select-option:disabled{
+    cursor: not-allowed;
+}
+
+.survey-wrapper {
+    margin-bottom: 45px;
+}

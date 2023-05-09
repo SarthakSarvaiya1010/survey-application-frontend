@@ -1,0 +1,86 @@
+.supervisor-header-main {
+   /* background-color: #6d72f2;
+  display: flex;
+  margin-top: 0%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 75px;
+  align-items: center; */
+  width: 100%;
+    background-color: #6d72f2;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding: 15px;
+}
+
+.header-container {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.supervisor-header-warpper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+.title {
+  width: 124px;
+  height: 44px;
+  margin-left: 27px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.header-img {
+  display: flex;
+  align-items: center;
+}
+.survey-img{
+  height: 40px;
+  width: 40px;
+}
+.survey-user-img{
+  height: 51px;
+  width: 51px;
+  margin-top: 5px;
+  margin-left: 14px;
+  border-radius: 47px;
+}
+
+.user-name {
+  color: white;
+  font-size: 17px;
+  font-family: 'Inter';
+  margin-top: revert; 
+  margin-bottom: revert;
+}
+
+.survey-log-out {
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Inter';
+  margin-bottom: 0;
+}
+.log-out_logo {
+  font-size: 33px;
+  margin-left: -6px;
+  margin-right: 19px;
+  opacity: 0.8;
+}
