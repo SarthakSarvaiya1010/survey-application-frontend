@@ -20,7 +20,7 @@ const SurveyPages = () => {
     window.location.href ===
       "https://survey-review-application.vercel.app/surveyPage/dashboard" ||
     window.location.href ===
-      " https://survey-application-frontend.vercel.app/survey/dashboard" ||
+      "https://survey-application-frontend.vercel.app/survey/dashboard" ||
     window.location.href === "http://localhost:3000/surveyPage/Team" ||
     window.location.href ===
       "https://survey-review-application.vercel.app/surveyPage/Team" ||
