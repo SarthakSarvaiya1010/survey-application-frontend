@@ -20,17 +20,17 @@ const SurveyPages = () => {
     window.location.href ===
       "https://survey-review-application.vercel.app/surveyPage/dashboard" ||
     window.location.href ===
-      "https://survey-application-frontend.vercel.app/survey/dashboard" ||
+      "https://survey-application-frontend.vercel.app/surveyPage/dashboard" ||
     window.location.href === "http://localhost:3000/surveyPage/Team" ||
     window.location.href ===
       "https://survey-review-application.vercel.app/surveyPage/Team" ||
     window.location.href ===
-      " https://survey-application-frontend.vercel.app/survey/Team" ||
+      "https://survey-application-frontend.vercel.app/surveyPage/Team" ||
     window.location.href === "http://localhost:3000/surveyPage/setting" ||
     window.location.href ===
       "https://survey-review-application.vercel.app/surveyPage/setting" ||
     window.location.href ===
-      " https://survey-application-frontend.vercel.app/survey/setting"
+      "https://survey-application-frontend.vercel.app/surveyPage/setting"
   ) {
     localStorage.setItem("workerid", false);
   }
