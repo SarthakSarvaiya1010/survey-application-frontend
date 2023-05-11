@@ -33,6 +33,7 @@ const Team = () => {
       });
 
   const Edit = (data) => {
+    window.scroll(0, 0);
     setShowEdit(true);
     dispatch(getEditDataAction(data));
   };

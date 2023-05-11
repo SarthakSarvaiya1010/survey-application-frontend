@@ -16,21 +16,9 @@ const SurveyPages = () => {
   let workerid = JSON.parse(localStorage.getItem("workerid"));
 
   if (
-    window.location.href === "http://localhost:3000/surveyPage/dashboard" ||
-    window.location.href ===
-      "https://survey-review-application.vercel.app/surveyPage/dashboard" ||
-    window.location.href ===
-      "https://survey-application-frontend.vercel.app/surveyPage/dashboard" ||
-    window.location.href === "http://localhost:3000/surveyPage/Team" ||
-    window.location.href ===
-      "https://survey-review-application.vercel.app/surveyPage/Team" ||
-    window.location.href ===
-      "https://survey-application-frontend.vercel.app/surveyPage/Team" ||
-    window.location.href === "http://localhost:3000/surveyPage/setting" ||
-    window.location.href ===
-      "https://survey-review-application.vercel.app/surveyPage/setting" ||
-    window.location.href ===
-      "https://survey-application-frontend.vercel.app/surveyPage/setting"
+    window.location.href.includes("/surveyPage/dashboard") ||
+    window.location.href.includes("/surveyPage/Team") ||
+    window.location.href.includes("/surveyPage/setting")
   ) {
     localStorage.setItem("workerid", false);
   }

@@ -51,7 +51,7 @@ const AdminFlow = () => {
     localStorage.setItem("editId", data.id);
   };
 
-  const Delete = (data) => {
+  const hedalDelete = (data) => {
     setModalOpen(true);
     dispatch(getDeleteDataAction(data));
   };
@@ -127,7 +127,7 @@ const AdminFlow = () => {
                             className="delete-icon"
                             // onClick={() => deleteUser(e.id, e)}
                             onClick={() => {
-                              Delete(e);
+                              hedalDelete(e);
                             }}
                           >
                             <MdDelete />

@@ -30,18 +30,13 @@ const Login = () => {
   );
 
   if (userRoleID === userRole.ADMIN) {
-    setTimeout(() => {
-      navigate("/admin");
-      window.location.reload();
-    }, 2000);
-
     localStorage.setItem("UserRole", "admin");
     localStorage.setItem("token", userData?.accessToken);
-  } else if (userRoleID === userRole.SUPERVISOR) {
     setTimeout(() => {
-      navigate("/surveyPage/dashboard");
-      window.location.reload();
+      navigate("/admin");
+      // window.location.reload();
     }, 2000);
+  } else if (userRoleID === userRole.SUPERVISOR) {
     // window.location.reload()
     localStorage.setItem("UserRole", "supervisor");
     localStorage.setItem("token", userData?.accessToken);
@@ -53,12 +48,12 @@ const Login = () => {
     localStorage.setItem("img", userData?.profile);
     localStorage.setItem("name", userData?.name);
     localStorage.setItem("id", JSON.stringify(userData?.id));
+    setTimeout(() => {
+      navigate("/surveyPage/dashboard");
+      // window.location.reload();
+    }, 2000);
   } else if (userRoleID === userRole.WORKER) {
     localStorage.setItem("UserRole", "worker");
-    setTimeout(() => {
-      navigate("/surveyPage/survey");
-      window.location.reload();
-    }, 2000);
 
     // window.location.reload()
     localStorage.setItem("token", userData?.accessToken);
@@ -75,6 +70,11 @@ const Login = () => {
     );
     localStorage.setItem("img", LoginData?.profile);
     localStorage.setItem("name", LoginData?.name);
+
+    setTimeout(() => {
+      navigate("/surveyPage/survey");
+      // window.location.reload();
+    }, 2000);
   }
   useEffect(() => {
     if (RegisterData?.status === "success") {

@@ -23,9 +23,7 @@ import { Protected } from "./components/loginPageUser/login/protected";
 import ErrorPage from "./components/common/404Page";
 import WorkerDetails from "./components/Survey/workerDetails";
 import RagisterPage from "./pages/ragisterPage"; // remove it
-
 import AddTask from "./components/addTask";
-
 import SurveyPages from "./pages/surveyPages";
 import Dashboard from "./components/surveyPages/dashboard";
 import Team from "./components/surveyPages/team";
