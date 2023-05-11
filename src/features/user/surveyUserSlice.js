@@ -245,7 +245,6 @@ const surveyUserSlice = createSlice({
       state.isLoading = true;
     },
     [signInUserActions.fulfilled]: (state, payload) => {
-      console.log("pay", payload);
       state.isLoading = false;
       const {
         payload: { data },
@@ -305,6 +304,9 @@ const surveyUserSlice = createSlice({
         payload: { data },
       } = payload;
       state.deleteUserById = data;
+    },
+    [logOutActions.pending]: (state) => {
+      state.data = [];
     },
     [logOutActions.fulfilled]: (state, payload) => {
       const {
